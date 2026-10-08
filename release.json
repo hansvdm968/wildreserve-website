@@ -1,0 +1,10 @@
+{
+  "version": "1.1.0",
+  "build": 5,
+  "channel": "Early access",
+  "buildType": "Development APK",
+  "file": "https://github.com/hansvdm968/wildreserve-website/releases/download/android-v1.1.0-build5/WildReserve-1.1.0.apk",
+  "bytes": 229160391,
+  "sha256": "0ba36701e7694d31f4d5a6407ed8509b7a32316756a4e489a8caf9e90346f72d",
+  "updated": "2026-10-08"
+}
