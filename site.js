@@ -9,6 +9,15 @@ fetch('release.json', {cache:'no-cache'}).then(r => {if(!r.ok)throw Error('Relea
     document.querySelectorAll('.download-link').forEach(el=>el.href=url.href);
   }
 }).catch(()=>{});
+fetch('windows-release.json', {cache:'no-cache'}).then(r => {if(!r.ok)throw Error('Windows release unavailable');return r.json();}).then(release => {
+  document.querySelectorAll('[data-windows-version]').forEach(el=>el.textContent=release.version);
+  document.querySelectorAll('[data-windows-size]').forEach(el=>el.textContent=`${(release.bytes/1048576).toFixed(1)} MB`);
+  document.getElementById('windows-release-hash').textContent=release.sha256;
+  const url=new URL(release.file,location.href);
+  if(url.origin===location.origin || (url.protocol==='https:' && url.hostname==='github.com' && url.pathname.startsWith('/hansvdm968/wildreserve-website/releases/download/'))) {
+    document.querySelectorAll('.windows-download-link').forEach(el=>el.href=url.href);
+  }
+}).catch(()=>{});
 const fragment=new URLSearchParams(location.hash.slice(1));
 const invitation=fragment.get('invite');
 const notice=document.getElementById('account-notice');

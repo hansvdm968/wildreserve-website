@@ -1,10 +1,10 @@
 {
-  "version": "1.1.2",
-  "build": 7,
+  "version": "1.1.3",
+  "build": 8,
   "channel": "Early access",
   "buildType": "Development APK",
-  "file": "https://github.com/hansvdm968/wildreserve-website/releases/download/android-v1.1.2-build7/WildReserve-1.1.2.apk",
-  "bytes": 107779278,
-  "sha256": "3f3313f6a6501ffd5b5391eb49ab0f219dd35568623c6ba3aeebfc1fdfe4c8b3",
-  "updated": "2026-10-26"
+  "file": "https://github.com/hansvdm968/wildreserve-website/releases/download/android-v1.1.3-build8/WildReserve-1.1.3.apk",
+  "bytes": 107796466,
+  "sha256": "c005d6e74f8670304edae9314df53e1b4b644ca059fb90f471a1da04c66f37a9",
+  "updated": "2026-10-29"
 }

@@ -1,0 +1,10 @@
+{
+  "version": "1.1.3",
+  "build": 8,
+  "channel": "Early access",
+  "buildType": "Unsigned Windows ZIP",
+  "file": "https://github.com/hansvdm968/wildreserve-website/releases/download/windows-v1.1.3-build8/WildReserve-Windows-1.1.3-build8.zip",
+  "bytes": 52003738,
+  "sha256": "3558687a14cb48aa9f58cb53183673f015d8596852748866584ed06c78a3c6f6",
+  "updated": "2026-10-29"
+}
